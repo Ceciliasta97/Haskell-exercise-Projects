@@ -1,0 +1,11 @@
+Running a Haskell project typically involves a few key steps:
+1. setting up your environment and initialize a new project
+2. compiling your project
+3.  executing the compiled program.
+
+(1) initialize new project: $ stack new my-project
+    --Navigate to the Project Directory: cd my-project   (E.g. Project1)
+(2) build your project: stack build
+(3) run your roject: $ cd Project1
+                     $ stack exec Project1-exe   
+(4) if want to clean the stack : stack clean
